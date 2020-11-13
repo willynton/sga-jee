@@ -12,7 +12,7 @@ import mx.com.gm.sga.servicio.PersonaServiceRemote;
 public class ClientePersonaService {
     public static void main(String[] args) {
         
-        System.out.println("Iniciando llamada al EJB desde el cliente\n");
+        System.out.println("Iniciando llamada al EJB desde el cliente: \n");
         
         try {
             Context jndi = new InitialContext();
